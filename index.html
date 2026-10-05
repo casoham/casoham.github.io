@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Soham Villacorta · Ingeniería Industrial</title>
+<meta name="description" content="Estudiante de Ingeniería Industrial y Manufactura Avanzada. Diseño de programas formativos, mejora de procesos y gestión de proyectos.">
+<meta name="theme-color" content="#F5F1E8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0A1830" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Soham Villacorta · Ingeniería Industrial y Manufactura Avanzada">
+<meta property="og:description" content="Diseño de programas formativos, mejora de procesos y gestión de proyectos.">
+<meta property="og:image" content="img/foto-perfil.jpg">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css?v=3">
+<script>document.documentElement.classList.add('js')</script>
+<script src="main.js?v=3" defer></script>
+</head>
+<body>
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+
+<header class="barra" id="barra">
+  <div class="contenedor barra__fila">
+    <a class="marca" href="#inicio" aria-label="Soham Villacorta, inicio">
+      <span class="marca__monograma" aria-hidden="true">SV</span>
+      <span class="marca__nombre">Soham Villacorta</span>
+    </a>
+    <nav class="nav" aria-label="Secciones">
+      <a href="#sobre">Sobre mí</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#experiencia">Experiencia</a>
+      <a href="#habilidades">Habilidades</a>
+      <a class="nav__cta" href="#contacto">Contacto</a>
+    </nav>
+    <button class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="menu-movil" aria-label="Abrir menú">
+      <span></span><span></span>
+    </button>
+  </div>
+  <nav class="menu-movil" id="menu-movil" aria-label="Secciones" hidden>
+    <a href="#sobre">Sobre mí</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#experiencia">Experiencia</a>
+    <a href="#habilidades">Habilidades</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+</header>
+
+<main id="contenido">
+
+<!-- HERO -->
+<section class="hero" id="inicio">
+  <div class="contenedor hero__grid">
+    <div class="hero__texto">
+      <p class="eyebrow aparece">Ingeniería Industrial y Manufactura Avanzada</p>
+      <h1 class="display aparece">Carlo Soham<br>Villacorta Siguenza</h1>
+      <p class="lead aparece">Estudiante en el Instituto Kriete de Ingeniería y Ciencias.</p>
+      <div class="acciones aparece">
+        <a class="boton boton--primario" href="#contacto">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 6h16v12H4z"/><path d="m4 7 8 6 8-6"/></svg>
+          Contáctame
+        </a>
+        <a class="boton boton--secundario" href="https://linkedin.com/in/soham-villacorta" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="boton boton--secundario" href="https://github.com/casoham" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+    <figure class="hero__foto aparece">
+      <img src="img/perfil.webp" alt="Retrato de Soham Villacorta con saco azul marino" width="683" height="768" fetchpriority="high">
+    </figure>
+  </div>
+</section>
+
+<!-- SOBRE MÍ -->
+<section class="seccion" id="sobre">
+  <div class="contenedor sobre__grid">
+    <figure class="sobre__foto aparece">
+      <img src="img/sobre-mi.webp" alt="Soham Villacorta de traje, con los brazos cruzados junto a una columna azul" loading="lazy" width="665" height="768">
+    </figure>
+    <div class="sobre__texto">
+      <p class="eyebrow aparece">Sobre mí</p>
+      <h2 class="titulo aparece">Transformando ideas, proyectos y retos.</h2>
+      <p class="prosa aparece">Me interesan la gestión de proyectos, la mejora de procesos y el análisis de datos. He diseñado programas de aprendizaje, estandarizado su documentación para que otros puedan replicarlos y coordinado equipos y aliados para llevarlos a cabo.</p>
+      <p class="prosa aparece">Me caracterizo por mi capacidad de aprendizaje, el liderazgo transformacional y la comunicación efectiva.</p>
+      <dl class="datos aparece">
+        <div><dt>Base</dt><dd>San Salvador, El Salvador</dd></div>
+        <div><dt>Estudios</dt><dd>Instituto Kriete de Ingeniería y Ciencias</dd></div>
+        <div><dt>Idiomas</dt><dd>Español nativo · Inglés B1</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<!-- PROYECTOS -->
+<section class="seccion seccion--alterna" id="proyectos">
+  <div class="contenedor">
+    <p class="eyebrow aparece">Proyectos</p>
+    <h2 class="titulo aparece">Lo que he construido.</h2>
+    <p class="sub aparece">Toca un proyecto para ver las fotos y el detalle.</p>
+
+    <div class="proyectos">
+
+      <!-- LESSA -->
+      <article class="proyecto proyecto--destacado aparece">
+        <button class="proyecto__abrir" type="button" aria-haspopup="dialog">
+          <span class="proyecto__portada">
+            <img src="img/lessa-1.jpg" alt="" loading="lazy" width="2000" height="1500">
+          </span>
+          <span class="proyecto__cuerpo">
+            <span class="etiqueta">Movimiento Scout · 2025</span>
+            <span class="proyecto__titulo">Un Poco de LESSA</span>
+            <span class="proyecto__resumen">Voluntarios de la Cruz Roja aprenden Lengua de Señas Salvadoreña para comunicarse con personas sordas en emergencias.</span>
+            <span class="cifras">
+              <span><b>20</b> beneficiarios</span>
+              <span><b>38</b> horas de servicio</span>
+              <span><b>3</b> ODS</span>
+            </span>
+            <span class="proyecto__mas">Ver proyecto <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></span>
+          </span>
+        </button>
+        <template class="proyecto__detalle">
+          <div class="galeria" data-galeria>
+            <img src="img/lessa-1.jpg" alt="Soham enseña una seña frente a voluntarios de la Cruz Roja Salvadoreña" width="2000" height="1500">
+            <img src="img/lessa-2.jpg" alt="La instructora de lengua de señas y una scout sonríen frente al grupo" width="2000" height="1333">
+            <img src="img/lessa-3.jpg" alt="Primer plano de manos practicando una seña durante el taller" width="2000" height="1333">
+            <img src="img/lessa-4.jpg" alt="Voluntarios de la Cruz Roja construyen una torre de papel en una dinámica de equipo" width="2000" height="1500">
+          </div>
+          <div class="detalle__texto">
+            <span class="etiqueta">Movimiento Scout · Abril – Julio 2025</span>
+            <h2 class="detalle__titulo">Un Poco de LESSA</h2>
+            <p>Proyecto que lideré para que voluntarios de la Cruz Roja aprendan Lengua de Señas Salvadoreña y puedan comunicarse con personas sordas durante una emergencia.</p>
+            <ol class="fases">
+              <li><span><b>Material de referencia</b> accesible para consultar en campo.</span></li>
+              <li><span><b>Talleres</b> impartidos con una instructora calificada.</span></li>
+              <li><span><b>Formación de pares</b> para que los mismos voluntarios continúen los talleres.</span></li>
+            </ol>
+            <div class="cifras cifras--grande">
+              <span><b>20</b> beneficiarios</span>
+              <span><b>38</b> horas de servicio</span>
+              <span><b>ODS</b> 4 · 10 · 17</span>
+            </div>
+            <a class="boton boton--secundario" href="https://sdgs.scout.org/project/un-poco-de-lessa" target="_blank" rel="noopener">Ver en Scouts ODS</a>
+          </div>
+        </template>
+      </article>
+
+      <!-- BUILD MASTER -->
+      <article class="proyecto aparece">
+        <button class="proyecto__abrir" type="button" aria-haspopup="dialog">
+          <span class="proyecto__portada proyecto__portada--tipo" aria-hidden="true">
+            <span class="portada-tipo__frase">Formar mientras<br>se construye</span>
+            <span class="portada-tipo__pilares"><span>Conocimiento técnico</span><span>Habilidades prácticas</span><span>Competencias del SER</span></span>
+          </span>
+          <span class="proyecto__cuerpo">
+            <span class="etiqueta">Grupo ECON · 2026 · <span class="estado">En planeación</span></span>
+            <span class="proyecto__titulo">Build Master</span>
+            <span class="proyecto__resumen">Ruta formativa de competencias de ingeniería para tres niveles educativos.</span>
+            <span class="proyecto__mas">Ver proyecto <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></span>
+          </span>
+        </button>
+        <template class="proyecto__detalle">
+          <div class="galeria" data-galeria>
+            <img class="ajuste-contener" src="img/buildmaster-2.png" alt="Fragmento del sitio del programa: conocimiento técnico, habilidades prácticas y competencias del SER" width="874" height="350">
+          </div>
+          <div class="detalle__texto">
+            <span class="etiqueta">Grupo ECON · Junio 2026 – Actualidad · <span class="estado">En planeación</span></span>
+            <h2 class="detalle__titulo">Build Master: ruta formativa</h2>
+            <p>Programa educativo de competencias de ingeniería para tres niveles: 7.º–8.º grado, bachillerato y universitarios. Busca formar mientras se construye: conocimiento técnico, habilidades prácticas y competencias del SER.</p>
+            <ul class="lista">
+              <li>Diseño del Rally SER y del Reto del Hacer.</li>
+              <li>Competencias definidas con indicadores observables.</li>
+              <li>Agendas, checklists, guiones y fichas de actividad estandarizados para que otros coordinadores los repliquen.</li>
+              <li>Bases pedagógicas documentadas: aprendizaje activo, modelo ICAP y aprendizaje cooperativo.</li>
+            </ul>
+          </div>
+        </template>
+      </article>
+
+      <!-- DE PANAS -->
+      <article class="proyecto aparece">
+        <button class="proyecto__abrir" type="button" aria-haspopup="dialog">
+          <span class="proyecto__portada proyecto__portada--zoom">
+            <img src="img/depanas-1.png" alt="" loading="lazy" width="1618" height="990">
+          </span>
+          <span class="proyecto__cuerpo">
+            <span class="etiqueta">Proyecto de POO · Cliente real · <span class="estado">En desarrollo</span></span>
+            <span class="proyecto__titulo">De Panas</span>
+            <span class="proyecto__resumen">Sistema web de compras e insumos para un restaurante, hecho en equipo.</span>
+            <span class="proyecto__mas">Ver proyecto <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></span>
+          </span>
+        </button>
+        <template class="proyecto__detalle">
+          <div class="galeria" data-galeria>
+            <img class="ajuste-izquierda" src="img/depanas-1.png" alt="Pantalla Compras de la app De Panas: tabla con proveedor, productos, gasto total y fecha" width="1618" height="990">
+            <img class="ajuste-izquierda" src="img/depanas-2.png" alt="Pantalla Agregar compra de la app De Panas: formulario con proveedor, fecha, productos y total" width="1620" height="985">
+          </div>
+          <div class="detalle__texto">
+            <span class="etiqueta">Proyecto de POO · Cliente real · <span class="estado">En desarrollo</span></span>
+            <h2 class="detalle__titulo">De Panas: gestión de gastos y compras</h2>
+            <p>Sistema web personalizado para un restaurante, desarrollado en equipo con React (frontend) y Node.js con Express (backend).</p>
+            <ul class="lista">
+              <li>Partimos de un documento de descubrimiento y uno de requerimientos con el cliente.</li>
+              <li>Registro de compras e insumos, con costos, gastos y márgenes como siguiente etapa.</li>
+              <li>Trabajo en equipo con control de versiones en GitHub.</li>
+            </ul>
+            <a class="boton boton--secundario" href="https://github.com/Gabrielvalen08/DePanas_Proyect_FORGE" target="_blank" rel="noopener">Ver repositorio</a>
+          </div>
+        </template>
+      </article>
+
+      <!-- CURSO PAA -->
+      <article class="proyecto aparece">
+        <button class="proyecto__abrir" type="button" aria-haspopup="dialog">
+          <span class="proyecto__portada">
+            <img src="img/paa-1.jpg" alt="" loading="lazy" width="1600" height="1200">
+          </span>
+          <span class="proyecto__cuerpo">
+            <span class="etiqueta">Key Institute · 2026 · <span class="estado">En ejecución</span></span>
+            <span class="proyecto__titulo">Curso de preparación para la PAA</span>
+            <span class="proyecto__resumen">Metodología, material y mejora continua de un curso para el examen de admisión.</span>
+            <span class="proyecto__mas">Ver proyecto <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></span>
+          </span>
+        </button>
+        <template class="proyecto__detalle">
+          <div class="galeria" data-galeria>
+            <img src="img/paa-1.jpg" alt="Estudiantes trabajando en grupos durante una sesión del curso de preparación" width="1600" height="1200">
+          </div>
+          <div class="detalle__texto">
+            <span class="etiqueta">Key Institute · Abril 2026 – Actualidad · <span class="estado">En ejecución</span></span>
+            <h2 class="detalle__titulo">Curso de preparación para la PAA</h2>
+            <p>Programa de preparación para el examen de admisión universitaria.</p>
+            <ul class="lista">
+              <li>Desarrollé la metodología del programa.</li>
+              <li>Analicé la retroalimentación y los datos de los participantes para proponer mejoras.</li>
+              <li>Elaboré el material educativo de apoyo y di seguimiento a los objetivos del proyecto.</li>
+            </ul>
+          </div>
+        </template>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCIA -->
+<section class="seccion" id="experiencia">
+  <div class="contenedor">
+    <p class="eyebrow aparece">Experiencia</p>
+    <h2 class="titulo aparece">Trabajo y liderazgo.</h2>
+    <ol class="linea">
+      <li class="puesto aparece">
+        <p class="puesto__fecha">Junio 2026 – Actualidad</p>
+        <div>
+          <h3 class="puesto__titulo">Pasante Coordinador de Mentorías</h3>
+          <p class="puesto__lugar">Grupo ECON · Build Master</p>
+          <ul class="lista">
+            <li>Diseño de la ruta formativa del programa para tres niveles educativos.</li>
+            <li>Documentación de las bases pedagógicas (aprendizaje activo, modelo ICAP, aprendizaje cooperativo).</li>
+            <li>Estandarización de la documentación para que otros coordinadores la repliquen.</li>
+            <li>Coordinación con instituciones aliadas y presentaciones para jefatura y aliados.</li>
+          </ul>
+        </div>
+      </li>
+      <li class="puesto aparece">
+        <p class="puesto__fecha">Abril 2026 – Actualidad</p>
+        <div>
+          <h3 class="puesto__titulo">Pasante Coordinador de Proyecto</h3>
+          <p class="puesto__lugar">Key Institute</p>
+          <ul class="lista">
+            <li>Metodología de un programa de preparación para el examen de admisión.</li>
+            <li>Análisis de retroalimentación y datos de participantes para proponer ajustes.</li>
+            <li>Apoyo en la gestión del proyecto y el seguimiento de objetivos.</li>
+          </ul>
+        </div>
+      </li>
+      <li class="puesto aparece">
+        <p class="puesto__fecha">2025</p>
+        <div>
+          <h3 class="puesto__titulo">Liderazgo y voluntariado</h3>
+          <p class="puesto__lugar">Movimiento Scout · Programa DALE (Fundación Forja – Key Institute)</p>
+          <ul class="lista">
+            <li>Lideré “Un Poco de LESSA”, formación en lengua de señas para voluntarios de la Cruz Roja.</li>
+            <li>Completé una formación en liderazgo e inteligencia emocional.</li>
+          </ul>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- HABILIDADES -->
+<section class="seccion seccion--alterna" id="habilidades">
+  <div class="contenedor">
+    <p class="eyebrow aparece">Habilidades y formación</p>
+    <h2 class="titulo aparece">Con qué trabajo.</h2>
+    <div class="tarjetas">
+      <div class="tarjeta aparece">
+        <h3>Técnicas</h3>
+        <ul class="chips"><li>Excel</li><li>Python</li><li>POO</li><li>MATLAB</li><li>SolidWorks</li><li>GitHub</li><li>Office / Teams</li></ul>
+      </div>
+      <div class="tarjeta aparece">
+        <h3>Interpersonales</h3>
+        <ul class="chips"><li>Liderazgo transformacional</li><li>Comunicación efectiva</li><li>Colaboración</li><li>Pensamiento crítico</li></ul>
+      </div>
+      <div class="tarjeta aparece">
+        <h3>Formación</h3>
+        <p class="tarjeta__dato">Ingeniería Industrial y Manufactura Avanzada</p>
+        <p class="tarjeta__nota">Instituto Kriete de Ingeniería y Ciencias · 2026 – Actualidad</p>
+      </div>
+      <div class="tarjeta aparece">
+        <h3>Certificaciones e idiomas</h3>
+        <ul class="chips"><li>Microsoft Office Specialist</li><li>Python Basic (HackerRank)</li><li>Español nativo</li><li>Inglés B1</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACTO -->
+<section class="contacto" id="contacto">
+  <div class="contenedor contacto__caja aparece">
+    <h2 class="contacto__titulo">¿Trabajamos juntos?</h2>
+    <p class="contacto__texto">Escríbeme y te respondo pronto.</p>
+    <a class="boton boton--invertido boton--grande" href="mailto:soham.villacorta@gmail.com">soham.villacorta@gmail.com</a>
+    <div class="contacto__redes">
+      <a href="https://linkedin.com/in/soham-villacorta" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/casoham" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.instagram.com/ca_soham" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://x.com/ca_soham" target="_blank" rel="noopener">X (Twitter)</a>
+      <a href="https://www.facebook.com/profile.php?id=100093442190935" target="_blank" rel="noopener">Facebook</a>    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="pie">
+  <div class="contenedor">© 2026 Carlo Soham Villacorta Siguenza · San Salvador, El Salvador</div>
+</footer>
+
+<dialog class="hoja" id="hoja" aria-labelledby="hoja-titulo">
+  <div class="hoja__contenido" id="hoja-contenido"></div>
+  <button class="hoja__cerrar" type="button" id="hoja-cerrar" aria-label="Cerrar">
+    <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg>
+  </button>
+</dialog>
+</body>
+</html>
